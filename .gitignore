@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Environment variables
+.env
+
+# Dataset
+data/raw/
+*.csv
+*.json
+data/processed/
+*.csv
+*.json
+
+# Model artifacts
+mlartifacts/
+artifacts/activity_ml
+
+# MLflow
+mlruns/
+mlartifacts/
+mlflow.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# macOS
+.DS_Store
