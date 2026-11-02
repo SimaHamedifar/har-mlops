@@ -13,7 +13,8 @@ dependencies = [
     "pandas",
     "scikit-learn",
     "matplotlib",
-    "mlflow"
+    "mlflow",
+    "pytest>=8"
 ]
 
 [tool.setuptools.packages.find]
