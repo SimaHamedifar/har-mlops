@@ -14,8 +14,14 @@ dependencies = [
     "scikit-learn",
     "matplotlib",
     "mlflow",
-    "pytest>=8"
+    
 ]
-
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+    "fastapi", 
+    "uvicorn",
+    "httpx",
+]
 [tool.setuptools.packages.find]
 where = ["src"]
