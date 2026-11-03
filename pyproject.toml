@@ -14,13 +14,12 @@ dependencies = [
     "scikit-learn",
     "matplotlib",
     "mlflow",
-    
+    "fastapi",
+    "uvicorn",
 ]
 [project.optional-dependencies]
 dev = [
     "pytest>=8",
-    "fastapi", 
-    "uvicorn",
     "httpx",
 ]
 [tool.setuptools.packages.find]
